@@ -28,11 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.tb1 = new System.Windows.Forms.TextBox();
+            this.SuspendLayout();
+            // 
+            // tb1
+            // 
+            this.tb1.Location = new System.Drawing.Point(62, 45);
+            this.tb1.Name = "tb1";
+            this.tb1.Size = new System.Drawing.Size(100, 20);
+            this.tb1.TabIndex = 0;
+            // 
+            // frmLogin
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(471, 261);
+            this.Controls.Add(this.tb1);
+            this.Name = "frmLogin";
             this.Text = "frmLogin";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.TextBox tb1;
     }
 }
